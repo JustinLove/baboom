@@ -1,0 +1,14 @@
+{
+  "author": "wondible",
+  "build": "89528",
+  "category": ["units"],
+  "context": "server",
+  "date": "2015/10/28",
+  "description": "Nuclear. Booms.",
+  "display_name": "BaBoom",
+  "forum": null,
+  "identifier": "com.wondible.pa.baboom",
+  "signature": "not yet implemented",
+  "version": "0.1.0"
+}
+
