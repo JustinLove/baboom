@@ -1,11 +1,14 @@
 # BaBoom
 
-Nuclear. Booms.
+Big Bomb Bot - self destructs for nuke-sized explosion, commander-sized if hit
 
-## Features
+## Piecemeal Unit Mods
 
-- Rainbows
-- Unicorns
+This is also a test-bed for piecemeal units mods. Three great beasts bar the way:
+
+- Unable to update strategic icons: Icon Reloader can refresh previously known icon ids; BaBoom is currently using `paratrooper`
+- Build bar is defined statically in the UI: This mod has a proof of concept for incremental additions, but is still jamming itself into `["bot", 1]` without regard for previous occupants.
+- `unit_list.json`: this one is going to be a PITA
 
 ## Development
 
@@ -15,7 +18,7 @@ PA will upload **all files** in the mod directory, including `node_modules` and 
 
 ### Available Tasks
 
-- copy:mod - copy the mod files into server_mods
-- proc:adv_comfab - Proc: read one or more files from PA and munge into one in the mod.  Example is a reduced cost adv. fabrication bot
-- proc:antinuke - restore the builtin first antinuke.
-- default: proc, copy:mod
+- copy:mod - copy the mod files into `server_mods`
+- copy:static - copy the mod icon into the pa directory
+- proc - create the unit, weapons, and `unit_list` in the local pa
+- default: proc, copy:static, copy:mod

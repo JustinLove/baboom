@@ -58,7 +58,7 @@ module.exports = function(grunt) {
         dest: 'pa/units/land/baboom/baboom.json',
         process: function(spec, com) {
           spec.display_name = 'BaBoom'
-          spec.description = 'Big Bomb Bot - self destructs for nuke-sized exlosion, commander-sized if hit'
+          spec.description = 'Big Bomb Bot - self destructs for nuke-sized explosion, commander-sized if hit'
           spec.si_name = 'paratrooper'
           spec.build_metal_cost = 8000
           spec.death_weapon = com.death_weapon

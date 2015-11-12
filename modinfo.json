@@ -4,10 +4,30 @@
   "category": ["units"],
   "context": "server",
   "date": "2015/11/12",
-  "description": "Nuclear. Booms.",
+  "description": "Big Bomb Bot - self destructs for nuke-sized explosion, commander-sized if hit",
   "display_name": "BaBoom",
   "forum": null,
   "identifier": "com.wondible.pa.baboom",
+  "scenes": {
+    "live_game": [
+      "coui://ui/mods/baboom/baboom.js"
+    ],
+    "live_game_build_bar": [
+      "coui://ui/mods/baboom/baboom.js"
+    ],
+    "live_game_sandbox": [
+      "coui://ui/mods/baboom/baboom.js"
+    ],
+    "live_game_selection": [
+      "coui://ui/mods/baboom/baboom.js"
+    ],
+    "live_game_unit_alert": [
+      "coui://ui/mods/baboom/baboom.js"
+    ],
+    "live_game_world_popup": [
+      "coui://ui/mods/baboom/baboom.js"
+    ]
+  },
   "signature": "not yet implemented",
   "version": "0.1.0"
 }

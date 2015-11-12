@@ -1,7 +1,7 @@
 {
   "base_spec": "/pa/units/land/base_bot/base_bot.json",
   "display_name": "BaBoom",
-  "description": "Big Bomb Bot - self destructs for nuke-sized exlosion, commander-sized if hit",
+  "description": "Big Bomb Bot - self destructs for nuke-sized explosion, commander-sized if hit",
   "max_health": 10,
   "build_metal_cost": 8000,
   "wreckage_health_frac": 0,
