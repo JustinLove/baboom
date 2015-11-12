@@ -38,6 +38,17 @@ module.exports = function(grunt) {
     clean: ['pa', modPath],
     // copy files from PA, transform, and put into mod
     proc: {
+      unit_list: {
+        src: [
+          'pa_ex1/units/unit_list.json',
+        ],
+        cwd: media,
+        dest: 'pa/units/unit_list.json',
+        process: function(spec) {
+          spec.units.push('/pa/units/land/baboom/baboom.json')
+          return spec
+        }
+      },
       baboom: {
         src: [
           'pa/units/land/bot_bomb/bot_bomb.json',
