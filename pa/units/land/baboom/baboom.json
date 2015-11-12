@@ -116,6 +116,7 @@
     4.5,
     3.2
   ],
+  "si_name": "paratrooper",
   "death_weapon": {
     "ground_ammo_spec": "/pa/ammo/nuke_pbaoe/nuke_pbaoe.json",
     "air_ammo_spec": "/pa/ammo/nuke_pbaoe/nuke_pbaoe_air.json",
