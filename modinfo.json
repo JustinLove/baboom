@@ -7,7 +7,7 @@
   "dependencies": ["com.wondible.pa.icon_reloader"],
   "description": "Big Bomb Bot - self destructs for nuke-sized explosion, commander-sized if hit",
   "display_name": "BaBoom",
-  "forum": null,
+  "forum": "https://forums.uberent.com/threads/rel-server-baboom.70912/",
   "icon": "http://wondible.com/pa/icons/baboom.png",
   "identifier": "com.wondible.pa.baboom",
   "scenes": {
