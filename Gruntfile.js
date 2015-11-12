@@ -10,6 +10,16 @@ module.exports = function(grunt) {
   // Project configuration.
   grunt.initConfig({
     copy: {
+      static: {
+        files: [
+          {
+            expand: true,
+            src: '**',
+            dest: './',
+            cwd: 'static/'
+          }
+        ],
+      },
       mod: {
         files: [
           {
@@ -101,7 +111,7 @@ module.exports = function(grunt) {
   })
 
   // Default task(s).
-  grunt.registerTask('default', ['proc', 'copy:mod']);
+  grunt.registerTask('default', ['proc', 'copy:static', 'copy:mod']);
 
 };
 
