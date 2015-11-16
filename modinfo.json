@@ -3,34 +3,30 @@
   "build": "89755",
   "category": ["units"],
   "context": "server",
-  "date": "2015/11/12",
-  "dependencies": ["com.wondible.pa.icon_reloader"],
+  "date": "2015/11/14",
+  "dependencies": [
+    "com.wondible.pa.hodgepodge",
+    "com.wondible.pa.icon_reloader"
+  ],
   "description": "Big Bomb Bot - self destructs for nuke-sized explosion, commander-sized if hit",
   "display_name": "BaBoom",
   "forum": "https://forums.uberent.com/threads/rel-server-baboom.70912/",
   "icon": "http://wondible.com/pa/icons/baboom.png",
   "identifier": "com.wondible.pa.baboom",
   "scenes": {
-    "live_game": [
-      "coui://ui/mods/baboom/baboom.js"
-    ],
-    "live_game_build_bar": [
-      "coui://ui/mods/baboom/baboom.js"
-    ],
-    "live_game_sandbox": [
-      "coui://ui/mods/baboom/baboom.js"
-    ],
-    "live_game_selection": [
-      "coui://ui/mods/baboom/baboom.js"
-    ],
-    "live_game_unit_alert": [
-      "coui://ui/mods/baboom/baboom.js"
-    ],
-    "live_game_world_popup": [
-      "coui://ui/mods/baboom/baboom.js"
+    "global_mod_list": [
+      "coui://ui/mods/baboom/global.js"
     ]
   },
   "signature": "not yet implemented",
-  "version": "0.1.0"
+  "xunit_list": {
+    "add_units": [
+      "/pa/units/land/baboom/baboom.json"
+    ],
+    "remove_units": [
+      "/pa/units/land/tank_nuke/tank_nuke.json"
+    ]
+  },
+  "version": "0.2.0"
 }
 

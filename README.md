@@ -2,13 +2,13 @@
 
 Big Bomb Bot - self destructs for nuke-sized explosion, commander-sized if hit
 
-## Piecemeal Unit Mods
+## Composable Unit Mods
 
-This is also a test-bed for piecemeal units mods. Three great beasts bar the way:
+This is also a test-bed for composable units mods. Three great beasts bar the way:
 
-- Unable to update strategic icons: Icon Reloader can refresh previously known icon ids; BaBoom is currently using `paratrooper`
-- Build bar is defined statically in the UI: This mod has a proof of concept for incremental additions, but is still jamming itself into `["bot", 1]` without regard for previous occupants.
-- `unit_list.json`: this one is going to be a PITA
+- Unable to update strategic icons: Wounded. Icon Reloader can refresh previously known icon ids; BaBoom is currently using `paratrooper`
+- Build bar is defined statically in the UI: Dying. HodgePodge mod has a proof of concept for incremental additions, but is still jamming units into fixed locations without regard for previous occupants.  BaBoom is going into `["bot", 1]`.
+- `unit_list.json`: Scratched. We can calculate buildable lists but the server does not accept the build commands.
 
 ## Development
 
