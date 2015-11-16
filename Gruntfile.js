@@ -61,6 +61,10 @@ module.exports = function(grunt) {
           spec.description = 'Big Bomb Bot - self destructs for nuke-sized explosion, commander-sized if hit'
           spec.si_name = 'paratrooper'
           spec.build_metal_cost = 8000
+          spec.unit_types = spec.unit_types.filter(function(type) {
+            return type != 'UNITTYPE_Basic' && type != 'UNITTYPE_CannonBuildable'
+          })
+          spec.unit_types.push('UNITTYPE_Advanced')
           spec.death_weapon = com.death_weapon
           spec.tools[0].spec_id = '/pa/units/land/baboom/baboom_tool_weapon.json'
           return spec

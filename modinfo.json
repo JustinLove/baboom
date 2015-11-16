@@ -3,7 +3,7 @@
   "build": "89755",
   "category": ["units"],
   "context": "server",
-  "date": "2015/11/14",
+  "date": "2015/11/16",
   "dependencies": [
     "com.wondible.pa.hodgepodge",
     "com.wondible.pa.icon_reloader"
@@ -19,14 +19,6 @@
     ]
   },
   "signature": "not yet implemented",
-  "xunit_list": {
-    "add_units": [
-      "/pa/units/land/baboom/baboom.json"
-    ],
-    "remove_units": [
-      "/pa/units/land/tank_nuke/tank_nuke.json"
-    ]
-  },
   "version": "0.2.0"
 }
 

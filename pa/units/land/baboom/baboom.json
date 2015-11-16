@@ -24,11 +24,10 @@
     "UNITTYPE_Bot",
     "UNITTYPE_Mobile",
     "UNITTYPE_Land",
-    "UNITTYPE_Basic",
     "UNITTYPE_FactoryBuild",
-    "UNITTYPE_CannonBuildable",
     "UNITTYPE_Offense",
-    "UNITTYPE_SelfDestruct"
+    "UNITTYPE_SelfDestruct",
+    "UNITTYPE_Advanced"
   ],
   "transportable": {
     "size": 1
