@@ -1,5 +1,9 @@
 # BaBoom
 
+## 0.4.0
+
+- Add fallback icons
+
 ## 0.3.0
 
 - Using it's own strategic icon id, counting on Icon Reloader to map one for it.
