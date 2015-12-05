@@ -16,7 +16,7 @@
       "head": [
         0,
         0,
-        1.8
+        5.4
       ]
     }
   },
@@ -41,7 +41,7 @@
     "turn_speed": 720
   },
   "physics": {
-    "radius": 2.25,
+    "radius": 6.75,
     "allow_pushing": true
   },
   "recon": {
@@ -63,14 +63,14 @@
     }
   },
   "model": {
-    "filename": "/pa/units/land/bot_bomb/bot_bomb.papa",
+    "filename": "/pa/units/land/baboom/baboom.papa",
     "animations": {
-      "death01": "/pa/units/land/bot_bomb/bot_bomb_anim_death01.papa",
-      "idle": "/pa/units/land/bot_bomb/bot_bomb_anim_idle.papa",
-      "walk": "/pa/units/land/bot_bomb/bot_bomb_anim_run.papa"
+      "death01": "/pa/units/land/baboom/baboom_anim_death01.papa",
+      "idle": "/pa/units/land/baboom/baboom_anim_idle.papa",
+      "walk": "/pa/units/land/baboom/baboom_anim_run.papa"
     },
     "animtree": "/pa/anim/anim_trees/bot_bomb_anim_tree.json",
-    "walk_speed": 40
+    "walk_speed": 120
   },
   "tools": [
     {
@@ -107,13 +107,13 @@
     }
   },
   "selection_icon": {
-    "diameter": 9
+    "diameter": 27
   },
-  "TEMP_texelinfo": 6.38702,
+  "TEMP_texelinfo": 19.16106,
   "mesh_bounds": [
-    3.8,
-    4.5,
-    3.2
+    11.399999999999999,
+    13.5,
+    9.600000000000001
   ],
   "death_weapon": {
     "ground_ammo_spec": "/pa/ammo/nuke_pbaoe/nuke_pbaoe.json",
