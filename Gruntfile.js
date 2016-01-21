@@ -66,6 +66,24 @@ module.exports = function(grunt) {
           spec.unit_types.push('UNITTYPE_Advanced')
           spec.death_weapon = com.death_weapon
           spec.tools[0].spec_id = '/pa/units/land/baboom/baboom_tool_weapon.json'
+          var scale = 3
+          spec.model = {
+            "filename": "/pa/units/land/baboom/baboom.papa",
+            "animations": {
+              "death01": "/pa/units/land/baboom/baboom_anim_death01.papa",
+              "idle": "/pa/units/land/baboom/baboom_anim_idle.papa",
+              "walk": "/pa/units/land/baboom/baboom_anim_run.papa"
+            },
+            "animtree": "/pa/anim/anim_trees/bot_bomb_anim_tree.json",
+            "walk_speed": spec.model.walk_speed * scale
+          }
+          var head = spec.attachable.offsets.head
+          for (var i in head) { head[i] = head[i] * scale }
+          spec.physics.radius = spec.physics.radius * scale
+          spec.selection_icon.diameter = spec.selection_icon.diameter * scale
+          spec.TEMP_texelinfo = spec.TEMP_texelinfo * scale
+          var mesh = spec.mesh_bounds
+          for (var i in mesh) { mesh[i] = mesh[i] * scale }
           return spec
         }
       },

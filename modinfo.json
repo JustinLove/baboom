@@ -3,7 +3,7 @@
   "build": "89755",
   "category": ["units"],
   "context": "server",
-  "date": "2015/11/24",
+  "date": "2015/12/04",
   "dependencies": [
     "com.wondible.pa.hodgepodge",
     "com.wondible.pa.icon_reloader"
@@ -19,6 +19,6 @@
     ]
   },
   "signature": "not yet implemented",
-  "version": "0.4.0"
+  "version": "0.5.0"
 }
 

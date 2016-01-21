@@ -1,5 +1,9 @@
 # BaBoom
 
+## 0.5.0
+
+- 3x upscaled model
+
 ## 0.4.0
 
 - Add fallback icons
