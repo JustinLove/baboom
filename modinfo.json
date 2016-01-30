@@ -1,12 +1,11 @@
 {
   "author": "wondible",
   "build": "89755",
-  "category": ["units"],
+  "category": ["units","titans"],
   "context": "server",
-  "date": "2015/12/04",
+  "date": "2016/01/21",
   "dependencies": [
-    "com.wondible.pa.hodgepodge",
-    "com.wondible.pa.icon_reloader"
+    "com.wondible.pa.hodgepodge"
   ],
   "description": "Big Bomb Bot - self destructs for nuke-sized explosion, commander-sized if hit",
   "display_name": "BaBoom",
@@ -16,9 +15,12 @@
   "scenes": {
     "global_mod_list": [
       "coui://ui/mods/baboom/global.js"
+    ],
+    "icon_atlas": [
+      "coui://ui/mods/baboom/icon_atlas.js"
     ]
   },
   "signature": "not yet implemented",
-  "version": "0.5.0"
+  "version": "0.6.0"
 }
 
