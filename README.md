@@ -4,11 +4,9 @@ Big Bomb Bot - self destructs for nuke-sized explosion, commander-sized if hit
 
 ## Composable Unit Mods
 
-This is also a test-bed for composable units mods. Three great beasts bar the way:
+This is also a test-bed for composable units mods. Serveral problems have been solved and the last is tractable:
 
-- Unable to update strategic icons: Wounded. Icon Reloader can reassign a limited pool of unused icons.
-- Build bar is defined statically in the UI: Mostly Dead. HodgePodge can put units into unused build bar slots.
-- `unit_list.json`: Scratched. We can calculate buildable lists but the server does not accept the build commands.
+- `unit_list.json`: Scratched. We can calculate buildable lists but the server does not accept the build commands. Theoretically solvable with run-time mod creation.
 
 ## Development
 

@@ -1,5 +1,9 @@
 # BaBoom
 
+## 0.6.0
+
+- Remove Icon Reloader dependency
+
 ## 0.5.0
 
 - 3x upscaled model
