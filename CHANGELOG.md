@@ -1,5 +1,9 @@
 # BaBoom
 
+## 0.7.0
+
+- Restore fallback icons
+
 ## 0.6.0
 
 - Remove Icon Reloader dependency
