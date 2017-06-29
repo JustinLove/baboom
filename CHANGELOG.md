@@ -1,5 +1,9 @@
 # BaBoom
 
+## 0.8.0
+
+- Update unit list for new commanders circa 105067
+
 ## 0.7.0
 
 - Restore fallback icons
