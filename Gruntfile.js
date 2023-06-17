@@ -51,7 +51,7 @@ module.exports = function(grunt) {
       },
       baboom: {
         src: [
-          'pa/units/land/bot_bomb/bot_bomb.json',
+          'pa_ex1/units/land/bot_bomb/bot_bomb.json',
           'pa/units/commanders/base_commander/base_commander.json',
         ],
         cwd: media,
@@ -142,8 +142,12 @@ module.exports = function(grunt) {
     }
   })
 
+  grunt.registerTask('printPath', function() {
+    console.log(media)
+  });
+
   // Default task(s).
-  grunt.registerTask('default', ['proc', 'copy:static', 'copy:mod']);
+  grunt.registerTask('default', ['proc', 'copy:static', 'copy:mod', 'printPath']);
 
 };
 

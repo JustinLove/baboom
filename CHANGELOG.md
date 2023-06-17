@@ -1,5 +1,10 @@
 # BaBoom
 
+## 0.9.0
+
+- Change base to ex1 bomb bot, esp for Custom58
+- Update unit list
+
 ## 0.8.0
 
 - Update unit list for new commanders circa 105067
